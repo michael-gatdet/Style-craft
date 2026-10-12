@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Send Style Craft an enquiry about custom clothing, alterations, repairs or fashion design.">
+  <title>Contact Us | Style Craft</title>
+  <link rel="icon" type="image/png" href="Images/Image10.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="Home.html" aria-label="Style Craft home"><span class="brand-mark">SC</span><span>STYLE CRAFT<small>TAILORING STUDIO</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="Home.html">Home</a><a href="About%20Us.html">About</a><a href="Services.html">Services</a><a href="Gallery.html">Gallery</a><a class="active" aria-current="page" href="Contact%20Us.html">Contact</a></nav><a class="header-cta" href="#enquiry-form">Make an enquiry <span aria-hidden="true">↗</span></a></header>
+  <main id="main">
+    <section class="contact-heading"><div><p class="eyebrow"><span></span> LET’S TALK ABOUT IT</p><h1>Tell us what<br><em>you have in mind.</em></h1><p>Share a little about your idea or the piece you’d like us to work on. We’ll take it from there.</p></div><div class="contact-heading-mark" aria-hidden="true">✳</div></section>
+    <section class="contact-layout">
+      <div class="contact-details"><p class="eyebrow"><span></span> GET IN TOUCH</p><h2>A good fit<br>starts with a chat.</h2><p>Use the form to put together your enquiry. We haven’t published phone, email, business hours or a studio location because those details haven’t been confirmed yet.</p><div class="contact-note"><span aria-hidden="true">✳</span><p>We’ll be happy to discuss the service, design, fabric and a quote when you contact us.</p></div></div>
+      <form class="enquiry-form" id="enquiry-form">
+        <div class="form-row"><label for="name">Your name <span>*</span><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name"></label><label for="email">Email address <span class="optional">(optional if you provide a phone number)</span><input id="email" name="email" type="email" autocomplete="email" placeholder="Email address"></label></div>
+        <div class="form-row"><label for="phone">Phone number <span class="optional">(optional if you provide an email)</span><input id="phone" name="phone" type="tel" autocomplete="tel"></label><label for="service">Service required <span>*</span><select id="service" name="service" required><option value="">Choose a service</option><option>Custom clothing</option><option>Alterations</option><option>Repairs</option><option>Fashion design</option><option>Something else</option></select></label></div>
+        <label for="message">Tell us a little more <span>*</span><textarea id="message" name="message" rows="5" required></textarea></label>
+        <p class="form-note">This form prepares your enquiry on this device; it does not send or store your personal information.</p>
+        <button class="button button-dark" type="submit">Copy enquiry <span aria-hidden="true">↗</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="Home.html"><span class="brand-mark">SC</span><span>STYLE CRAFT<small>TAILORING STUDIO</small></span></a><p>Made with care. Made for you.</p><nav aria-label="Footer navigation"><a href="About%20Us.html">About</a><a href="Services.html">Services</a><a href="Gallery.html">Gallery</a></nav><span class="copyright">© <span data-year>2026</span> Style Craft</span></footer>
+</body>
+</html>

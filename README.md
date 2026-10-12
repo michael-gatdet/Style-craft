@@ -4,7 +4,7 @@ A responsive, static website for a tailoring studio. It presents the studio's se
 
 ## Pages
 
-- `Home.html` — introduction, featured image, service highlights and calls to action.
+- `index.html` — the site entry point, introduction, featured image, service highlights and calls to action.
 - `About Us.html` — the studio's purpose and approach to workmanship.
 - `Services.html` — custom clothing, alterations, repairs and fashion design.
 - `Gallery.html` — six featured outfits with prices available on request.
@@ -18,7 +18,7 @@ A responsive, static website for a tailoring studio. It presents the studio's se
 
 ## View the website
 
-Open `Home.html` in a web browser. The other pages are linked from the navigation and footer. No build step or package installation is required. Google Fonts are loaded from Google Fonts when an internet connection is available; fallback fonts are specified in the stylesheet.
+Open `index.html` in a web browser or publish the project folder with a static hosting provider. The other pages are linked from the navigation and footer. No build step or package installation is required. Google Fonts are loaded from Google Fonts when an internet connection is available; fallback fonts are specified in the stylesheet.
 
 ## Enquiry form
 
